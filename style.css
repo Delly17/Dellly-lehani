@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #333;
+    background: #fff;
+}
+
+.top-bar {
+    background: #0d2f26;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d2f26;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.auth-buttons .btn, .btn-primary {
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn {
+    background: #eee;
+    color: #333;
+}
+
+.btn-primary {
+    background: #2bb673;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background: #f5faf8;
+}
+
+.hero-text h5 {
+    color: #2bb673;
+    margin-bottom: 10px;
+}
+.hero-text h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.hero-text h1 span {
+    color: #2bb673;
+}
+.hero-text p {
+    margin-bottom: 20px;
+    color: #555;
+}
+.hero-image img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.courses {
+    padding: 50px 10%;
+    text-align: center;
+}
+.courses h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.courses h2 span {
+    color: #2bb673;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search-box input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+    background: #2bb673;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.categories button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categories .active {
+    background: #2bb673;
+    color: #fff;
+    border-color: #2bb673;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.course-info {
+    padding: 15px;
+    text-align: left;
+}
+.course-info h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.course-info p {
+    color: #2bb673;
+    font-weight: 600;
+}
+.course-info .old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: normal;
+}
+
+.rating {
+    color: #f39c12;
+    font-size: 14px;
+
+}
+
+.instructor {
+    padding: 40px 10%;
+    background: #f5faf8;
+    text-align: center;
+    margin-top: 40px;
+}
+.instructor h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #0d2f26;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    margin-bottom: 10px;
+    color: #0d2f26;
+}
+
+.auth-box p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #2bb673;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #239c61;
+}
+
+.redirect {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.redirect a {
+    color: #2bb673;
+    text-decoration: none;
+    font-weight: 600;
+}
